@@ -5,7 +5,7 @@ import { HighlightDirective } from './highlight.directive';
 @NgModule({
   declarations: [HighlightDirective],
   imports: [
-    CommonModule
-  ]
+    CommonModule],
+   exports:[HighlightDirective]
 })
 export class FeatureModule { }
